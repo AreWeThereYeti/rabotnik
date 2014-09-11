@@ -90,6 +90,21 @@ input[type="submit"] {
   display: block;
 }
 
+/* line 44, ../sass/_form.scss */
+.signs_table {
+  padding: 20px;
+  border: 2px solid #000000;
+}
+/* line 47, ../sass/_form.scss */
+.signs_table span {
+  font-size: 16px;
+}
+/* line 50, ../sass/_form.scss */
+.signs_table span:nth-child(1) {
+  display: block;
+  font-weight: bold;
+}
+
 @font-face {
   font-family: 'proxima_nova_cn_rgregular';
   src: url("/fonts/proximanovacond-regular-webfont.eot");
@@ -153,11 +168,35 @@ body div.main .aside.bg {
   background-repeat: no-repeat;
   height: 990px;
 }
-/* line 77, ../sass/main.scss */
+/* line 74, ../sass/main.scss */
+body div.main .aside.bg .inner {
+  height: 990px;
+}
+/* line 81, ../sass/main.scss */
+body .see_all {
+  font-family: 'proxima_nova_cn_rgregular';
+  background: #ffffff;
+  border: 1px solid #000000;
+  padding: 10px 20px;
+  margin: auto;
+  display: block;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+/* line 93, ../sass/main.scss */
 body .inner {
   padding: 20px;
 }
-/* line 81, ../sass/main.scss */
+/* line 97, ../sass/main.scss */
+body .huge {
+  font-size: 60px;
+  margin: 0;
+}
+/* line 102, ../sass/main.scss */
+body .reset_margin {
+  margin: 0;
+}
+/* line 105, ../sass/main.scss */
 body .clear {
   clear: both;
 }

@@ -70,14 +70,38 @@ body{
        background-image: url('/img/aside_bg.png');
        background-repeat: no-repeat;
        height: 990px;
+
+       .inner{
+         height: 990px;
+       }
      }
     }
+  }
+
+  .see_all{
+    font-family: 'proxima_nova_cn_rgregular';
+    background: #ffffff;
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    margin: auto;
+    display: block;
+    text-transform: uppercase;
+    font-size: 17px;
+
   }
 
   .inner{
     padding:20px;
   }
 
+  .huge{
+    font-size: 60px;
+    margin: 0;
+  }
+
+  .reset_margin{
+    margin: 0;
+  }
   .clear{
     clear: both;
   }
