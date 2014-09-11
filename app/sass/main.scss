@@ -1,0 +1,79 @@
+@import "compass";
+
+@import "footer";
+@import "header";
+
+@font-face {
+  font-family: 'proxima_nova_cn_rgregular';
+  src: url('/fonts/proximanovacond-regular-webfont.eot');
+  src: url('/fonts/proximanovacond-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/proximanovacond-regular-webfont.woff2') format('woff2'),
+  url('/fonts/proximanovacond-regular-webfont.woff') format('woff'),
+  url('/fonts/proximanovacond-regular-webfont.ttf') format('truetype'),
+  url('/fonts/proximanovacond-regular-webfont.svg#proxima_nova_cn_rgregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_novasemibold';
+  src: url('/fonts/proximanova-semibold-webfont.eot');
+  src: url('/fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/proximanova-semibold-webfont.woff2') format('woff2'),
+  url('/fonts/proximanova-semibold-webfont.woff') format('woff'),
+  url('/fonts/proximanova-semibold-webfont.ttf') format('truetype'),
+  url('/fonts/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1{
+  font-family: 'proxima_novasemibold';
+  font-size: 24px;
+}
+
+p{
+  font-family: 'proxima_nova_cn_rgregular';
+  font-size: 17px;
+}
+
+body{
+  background-image: url('/img/bg.jpg');
+
+  div.main{
+    width: 1050px;
+    margin: auto;
+    height: calc(100% - 50px);
+
+    .social{
+      width: 10%;
+      display: block;
+      min-height: 1px;
+      float: left;
+    }
+
+    .content{
+      width: 60%;
+      display: block;
+      min-height: 1px;
+      float: left;
+    }
+
+    .aside{
+      min-height: 1px;
+      display: block;
+      width: 30%;
+      float: left;
+
+     &.bg{
+       background-image: url('/img/aside_bg.png');
+       background-repeat: no-repeat;
+       height: 990px;
+     }
+    }
+  }
+
+  .inner{
+    padding:20px;
+  }
+}
