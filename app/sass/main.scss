@@ -43,7 +43,7 @@ body{
   div.main{
     width: 1050px;
     margin: auto;
-    height: calc(100% - 50px);
+    display: block;
 
     .social{
       width: 10%;
@@ -75,5 +75,9 @@ body{
 
   .inner{
     padding:20px;
+  }
+
+  .clear{
+    clear: both;
   }
 }

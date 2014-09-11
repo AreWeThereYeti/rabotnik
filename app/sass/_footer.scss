@@ -1,8 +1,30 @@
 footer{
-  position: fixed;
-  bottom: 0px;
+  clear: both;
+  position: relative;
+  z-index: 10;
   width: 100%;
   display: block;
-  height: 50px;
+  overflow: hidden;
   @include background-image(linear-gradient(black, #212121));
+
+  img{
+    margin: auto;
+    display: block;
+    width: 20%;
+    padding: 20px;
+  }
+
+  p{
+    color: #9a9a9a;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  :last-of-type(p){
+    padding-bottom: 20px;
+  }
+
+  .yellow{
+    color: #e5d852;
+  }
 }
