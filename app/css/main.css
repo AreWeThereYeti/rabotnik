@@ -47,6 +47,49 @@ header img {
   display: block;
 }
 
+/* line 1, ../sass/_form.scss */
+fieldset {
+  border: none;
+}
+
+/* line 5, ../sass/_form.scss */
+.field_yawpp {
+  margin: 15px 0px;
+}
+/* line 8, ../sass/_form.scss */
+.field_yawpp label {
+  width: 120px;
+  display: inline-block;
+}
+/* line 13, ../sass/_form.scss */
+.field_yawpp input[type="text"], .field_yawpp input[type="email"] {
+  width: 425px;
+  height: 30px;
+  padding-left: 5px;
+  outline: 0;
+  border: 1px #DCDCDC solid;
+}
+
+/* line 23, ../sass/_form.scss */
+.field_yawpp:nth-child(7) label, .field_yawpp:nth-child(8) label, .field_yawpp:nth-child(9) label {
+  display: inline-block;
+  width: 325px;
+}
+/* line 29, ../sass/_form.scss */
+.field_yawpp:nth-child(7) input, .field_yawpp:nth-child(8) input, .field_yawpp:nth-child(9) input {
+  width: 75px;
+}
+
+/* line 34, ../sass/_form.scss */
+input[type="submit"] {
+  background: #E4D752;
+  border: 0;
+  box-shadow: -2px 4px 0px 0px #000;
+  padding: 10px 15px;
+  margin: auto;
+  display: block;
+}
+
 @font-face {
   font-family: 'proxima_nova_cn_rgregular';
   src: url("/fonts/proximanovacond-regular-webfont.eot");
@@ -61,60 +104,60 @@ header img {
   font-weight: normal;
   font-style: normal;
 }
-/* line 30, ../sass/main.scss */
+/* line 31, ../sass/main.scss */
 h1 {
   font-family: 'proxima_novasemibold';
   font-size: 24px;
 }
 
-/* line 35, ../sass/main.scss */
+/* line 36, ../sass/main.scss */
 p {
   font-family: 'proxima_nova_cn_rgregular';
   font-size: 17px;
 }
 
-/* line 40, ../sass/main.scss */
+/* line 41, ../sass/main.scss */
 body {
   background-image: url("/img/bg.jpg");
 }
-/* line 43, ../sass/main.scss */
+/* line 44, ../sass/main.scss */
 body div.main {
   width: 1050px;
   margin: auto;
   display: block;
 }
-/* line 48, ../sass/main.scss */
+/* line 49, ../sass/main.scss */
 body div.main .social {
   width: 10%;
   display: block;
   min-height: 1px;
   float: left;
 }
-/* line 55, ../sass/main.scss */
+/* line 56, ../sass/main.scss */
 body div.main .content {
   width: 60%;
   display: block;
   min-height: 1px;
   float: left;
 }
-/* line 62, ../sass/main.scss */
+/* line 63, ../sass/main.scss */
 body div.main .aside {
   min-height: 1px;
   display: block;
   width: 30%;
   float: left;
 }
-/* line 68, ../sass/main.scss */
+/* line 69, ../sass/main.scss */
 body div.main .aside.bg {
   background-image: url("/img/aside_bg.png");
   background-repeat: no-repeat;
   height: 990px;
 }
-/* line 76, ../sass/main.scss */
+/* line 77, ../sass/main.scss */
 body .inner {
   padding: 20px;
 }
-/* line 80, ../sass/main.scss */
+/* line 81, ../sass/main.scss */
 body .clear {
   clear: both;
 }
